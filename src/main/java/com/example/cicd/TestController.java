@@ -18,8 +18,8 @@ public class TestController {
     }
 
     @GetMapping()
-    public List<User> test() {
-        return userRepository.findAll();
+    public String test() {
+        return "test";
     }
 
 }
